@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "question":"what is name of our country?",
+            "choices":["Pakistan","India","America","italy"],
+            "answer":"Pakistan"
+        },
+        {
+            "question":"who is your bestFriend?",
+            "choices":["Noman Aijaz","Shehla","Muqadus","Any"],
+            "answer":"Shehla"
+        },
+        {
+            "question":"what is Your favourite color?",
+            "choices":["Red","Black","White","Pink"],
+            "answer":"Black"
+        }
+        
+    ]
+}

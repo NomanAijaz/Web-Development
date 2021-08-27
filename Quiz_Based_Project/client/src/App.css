@@ -1,0 +1,31 @@
+html,
+body,
+#root{
+}
+.App{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Block{
+    display: block;
+    background-color:#CCCDC6;
+    border-radius: 10px;
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.danger{
+    display: block;
+    background-color:"red";
+    opacity: 0.5;
+    border-radius: 10px;
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 5px;
+}
