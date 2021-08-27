@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+/*Short note on title image*/
+
+.short-note{
+
+margin-top: 440px;
+position: absolute;
+border: 1px solid orange;
+background-color: black;
+opacity:0.5;
+margin-left: 870px;
+border-radius: 8px;
+padding: 25px;
+
+}
+
+.short-note p{
+  margin-left: 10px;
+  color:white;
+  font-weight: 800;
+  font-size: 25px;
+  font-family:cursive;
+  transition: all .3s;
+}
+.short-note:hover{
+  border: 3px solid orange;
+  transition: all .3s;
+}
+
+/*Personal-info-block*/
+.Personal-info-block
+{
+display: block;
+height: 1000px;
+width: 1200px;
+background-color:gray;
+border: 2px solid orange;
+border-radius: 5px;
+margin-left: 150px;
+margin-top: 30px;
+margin-bottom: 50px;
+float:left;
+}
+
+.info-style{
+  font-size:30px;
+  border-radius: 5px;
+  margin-left:30px;
+}
+
+
+
+/*----------------------*/
+
+.info-fields{
+  height: 60px;
+  width: 450px;
+font-size:30px;
+border-radius: 5px;
+}
+.info-fields:focus{
+background-color:black;
+opacity: 0.5;
+color:white;
+}
+
+
+
+/*fill-form-banner*/
+
+.fill-form-banner{
+  margin-top: 635px;
+  background-color: black;
+  opacity: 0.6;
+  display: block;
+  height: 40px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.fill-form-banner h1{
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.form{
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 100px;
+  margin-top: 20px;
+  height: 1000px;
+  border: 3px solid red;
+  background-color: black;
+  opacity: 0.6;
+}
+/*---------------SubmitButton------------*/
+.submitButton{
+height:70px;
+ width:350px;
+margin-top:20px;
+float: right;
+font-size:30px;
+background-color:skyblue;
+border-radius:50px;
+}
+.submitButton:hover{
+border: 3px solid white;
+transition: all .3s;
+}
+
+
+.heading-data{
+  color: black;
+  margin-left: 70px;
+  font-family:cursive;
+
+}

@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+
+}
+/*Header*/
+.Header{
+height: 60px;
+width: 100%;
+display: block;
+background-color: black;
+opacity: 0.6;
+}
+
+.block-container{
+
+  margin-left: 50px;
+  height: 100%;
+  float: left;
+  display: table;
+}
+
+.block-container h1{
+color: skyblue;
+height: 100%;
+display: table-cell;
+vertical-align: middle;
+font-weight: 50;
+font-size: 32px;
+font-family:cursive;
+}
+
+.block-container h1 span{
+color:white;
+font-weight: 800;
+font-size: 35px;
+}
+
+.navigator{
+  float:right;
+  list-style: none;
+}
+
+.navigator a{
+  padding-left: 40px;
+  float: left;
+  color: white;
+  margin-top: 8px;
+  font-size: 30px;
+  font-family: cursive;
+  transition: all .3s;
+}
+.navigator a:last-child{
+  padding-right: 5px;
+}
+
+.navigator a:hover{
+  color: skyblue;
+  font-size: 35px;
+  transition: all .3s;
+}
+
+/*Footer*/
+
+.footer-content{
+  margin-top: 20px;
+  color: white;
+  display: block;
+  background-color: black;
+  opacity: 0.7;
+  height: 350px;
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  position: relative;
+}
+
+.footer-content a{
+  color: white;
+}
+
+.footer-section{
+  flex: 1;
+  padding: 25px;
+  border: 1px solid white;
+
+}
+
+.footer-section ul a{
+
+display: block;
+margin-bottom: 10px;
+font-size: 1.2em;
+transition: all .3s;
+}
+
+.footer-section  ul a:hover{
+  color: white;
+  margin-left: 15px;
+  transition: all .3s;
+
+}
+
+
+.logo-text {
+
+  color: skyblue;
+  font-weight: 50;
+  font-size: 32px;
+  font-family:cursive;
+}
+
+.logo-text  span{
+  color: white;
+  font-weight: 800;
+  font-size: 35px;
+  }
+
+
+  .contact span{
+    display:block;
+    font-size:1.1em;
+    margin-bottom: 8px;
+  }
+
+  .social a{
+    border: 1px solid gray;
+    width: 41px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display:inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all .3s;
+
+  }
+
+  .social a:hover {
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+}
+
+
+
+.footer-text-input{
+height: 30px;
+color: black;
+background-color: black;
+width: 330px;
+font-size: 20px;
+border-radius: 3px;
+padding-left: 3px;
+}
+
+.footer-text-input:focus{
+  background-color: white;
+}
+
+.footer-message-input{
+  color: black;
+  background-color: black;
+  height: 130px;
+  width: 330px;
+  font-size: 20px;
+  border-radius: 3px;
+  padding-left: 3px;
+}
+.footer-message-input:focus{
+  background-color: white;
+}
+
+
+.footer-send-btn{
+  background-color: skyblue;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+
+
+
+.footer-buttom{
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+}

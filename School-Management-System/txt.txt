@@ -1,0 +1,63 @@
+CREATE TABLE new_Enrollment(
+FirstName varchar(10) NOT null,
+LastName  varchar(10) NOT null,
+    FatherName varchar(10) NOT null,
+    Surname varchar(10) NOT null,
+    CNIC varchar(15) NOT null,
+    DOB Date NOT null,
+    Age int(2) NOT null,
+    PhoneNumber int(11) NOT null,
+    Gender varchar(10) NOT null,
+    MaritalStatus varchar(10) NOT null,
+    FatherStatus varchar(10) NOT null,
+    PerminantAddress varchar(50) NOT null,
+    City varchar(10) NOT null,
+    Province varchar(10) NOT null,
+    PostalCode int(5) NOT null,
+    LastAttendantCollege varchar(50) NOT null,
+    StudentID varchar(12) NOT null PRIMARY KEY,
+    AdmissionDate Date NOT null
+);
+
+//-------------Registration------------------
+CREATE TABLE IF NOT EXISTS Registration(
+StudentID int(5) NOT null PRIMARY KEY AUTO_INCREMENT,
+FirstName varchar(10) NOT null,
+    LastName varchar(10) NOT null,
+    FatherName varchar(10) NOT null,
+    Surname varchar(10) NOT null,
+    Gender varchar(10) NOT null,
+    DateOfBirth varchar(30) NOT null,
+    PhoneNumber int(15) NOT null,
+    E_mail varchar(50) NOT null,
+    CNIC varchar(15) NOT null,
+    Country varchar(50) NOT null,
+    Province varchar(50) NOT null,
+    City varchar(50) NOT null
+);
+
+//----------------Course----------------
+
+CREATE TABLE IF NOT EXISTS Courses(
+CourseID varchar(10) NOT null PRIMARY KEY,
+CourseName varchar(50) NOT null    
+); 
+
+Alter TABLE courses ADD(
+TeacherID int(30) not null,
+FOREIGN KEY(TeacherID) REFERENCES teacher(TeacherID)   
+);
+
+
+//-----------------teacher----------
+CREATE TABLE teacher(
+TeacherID int(30) NOT null PRIMARY KEY AUTO_INCREMENT,
+TeacherName varchar(50) NOT null,
+Department varchar(50) NOT null
+);
+
+INSERT INTO teacher(TeacherName,Department) VALUES ('NomanAijaz','Mathametics');
+
+INSERT INTO teacher(TeacherName,Department) VALUES ('UsamaAli','English');
+
+INSERT INTO teacher(TeacherName,Department) VALUES ('ShehlaMushtaq','ComputerScience');

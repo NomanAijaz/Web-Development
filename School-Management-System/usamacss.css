@@ -1,0 +1,289 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+
+}
+/* search students styles*/
+.stid{
+  margin-top: 10px;
+}
+
+/* upload marks styles*/
+.container{
+}
+.midDiv{
+  width:50%;
+  margin-left: 23%;
+  margin-top: 1.5%;
+  border-radius: 10px;
+  text-shadow: 2px 2px 2px grey;
+  color:solid black;
+
+}
+.courTech .midDiv{
+  box-shadow: 0 7px #999;
+}
+.demo,.labell,.courTeach .button{
+  margin-left: 25%;
+  margin-top: 2px;
+}
+.la{
+  margin-top: 15px;
+}
+/* upload marks styles end*/
+/* submit button styles*/
+
+.button {
+  padding: 5px 10px;
+  font-size: 13px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 7px #999;
+
+}
+.button:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+/* submit button styles end*/
+
+
+
+/* upload marks styles end*/
+
+/* teache Functions*/
+
+/* Your options bar */
+body.fun{
+  background-color: #DCDCDC;
+  opacity: 0.7
+}
+.nav-bar{
+  margin-top: 2px;
+}
+.nav-bar h2{
+  text-align: center;
+  margin-left: 33%;
+}
+.col-sm-4{
+  font-size: 1.7em;
+  padding: 0px;
+  margin-top: 15px;
+  margin-right:-10%;
+}
+.nums{
+  margin-top: 8px;
+  color:skyblue;
+  text-shadow: 2px 2px 2px #000000;
+}
+.glyphicon{
+  text-shadow: 2px 2px 2px #000000;
+}
+.courses{
+
+  box-sizing: border-box;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #f8f8f8;
+}
+section.row{
+  margin-left: 19%;
+
+}
+/*Teach functions end here*/
+
+/*
+admin login style
+*/
+body.admin{
+   background-image: url("teach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 80%;
+}
+.Container{
+  padding: 0px;
+  margin: 0px;
+}
+.form-group
+{
+    display: flex;
+    clear:both;
+    width:20%;
+    padding: 5px;
+    margin-left: 40%;
+
+}
+.pp{
+  margin-left: 35%;
+  width: 25%;
+}
+
+.btn{
+  margin-left: 47%;
+}
+.nav-bar{
+    border-radius: 30px
+
+}
+
+.head1{
+float: left;
+clear:both;
+font-size: 1.3em;
+padding: 1px;
+margin-left: 40%;
+}
+/*admin log in style end*/
+/*TEXT*/
+.intro-text{
+margin-top: 180px;
+position: absolute;
+border: 1px solid orange;
+background-color: black;
+opacity:0.5;
+margin-left: 30px;
+border-radius: 8px;
+padding: 25px;
+
+}
+
+.intro-text p{
+  margin-left: 10px;
+  color:white;
+  font-weight: 800;
+  font-size: 25px;
+  font-family:cursive;
+  transition: all .3s;
+}
+.intro-text:hover{
+  border: 3px solid orange;
+  transition: all .3s;
+}
+
+/*get start buttton*/
+.Get-start-button{
+  background-color:skyblue;
+  opacity: 0.6;
+  color: black;
+  font-weight: 800;
+  font-family: cursive;
+  border: 1px solid orange;
+  font-size: 20px;
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  margin-top: 350px;
+  margin-left: 30px;
+  border-radius: 8px;
+  transition: all .3s;
+}
+.Get-start-button:hover{
+  margin-left: 50px;
+  background-color: inherit;
+  border: 2px solid black;
+  transition: all .3s;
+}
+
+/*middle menu*/
+
+
+
+.student-portal{
+  border-radius: 8px;
+  margin-top: 100px;
+
+  margin-bottom: 100px;
+  transition: all .3s;
+}
+
+.student-portal:hover{
+  border: 2px solid black;
+  margin-top: 120px;
+  border-radius: 8px;
+  transition: all .3s;
+}
+
+.student-portal h2{font-family: cursive; margin-left: 80px;}
+
+.student-portal p{ margin-left: 55px; font-size: 20px;}
+
+.enrollment{
+  margin-top: 100px;
+transition: all .3s;
+  margin-bottom: 100px;
+}
+
+.enrollment:hover{
+  border: 2px solid black;
+  margin-top: 120px;
+  border-radius: 8px;
+  transition: all .3s;
+}
+.tile{
+  float:left;
+  width:23.5%;
+  margin-right:70px;
+  margin-left:50px;
+}
+.tile p{
+  text-align: center;
+}
+
+.enrollment h2{font-family: cursive; margin-left: 75px;}
+
+.enrollment p{ margin-left: 20px; font-size: 20px;}
+
+.faculty-portal{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  transition: all .3s;
+}
+
+.faculty-portal:hover{
+  border: 2px solid black;
+  margin-top: 120px;
+  border-radius: 8px;
+  transition: all .3s;
+}
+
+
+.faculty-portal h2{font-family: cursive; margin-left: 95px;}
+
+.faculty-portal p{margin-left: 50px; font-size: 20px;}
+
+.top-banner{
+  margin-top:640px;
+  border-radius: 10px;
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  transition: all .3s;
+}
+
+.top-banner:hover{border: 3px solid orange; transition: all .3s;}
+
+.top-banner h2{
+  color: white;
+    font-family:inherit;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+}
+.top-banner h2 span{
+color: skyblue;
+font-weight: 800;
+}
+
+/* Footer*/
